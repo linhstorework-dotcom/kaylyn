@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   verification: {
-    google: "ef_IQ_gGpn_L-nTqO-XzgRhKBs2Fie9PevQn8DH3aAw",
+    google: process.env.GOOGLE_SITE_VERIFICATION,
   },
   title: {
     default: "Spa Pleiku Gia Lai | Kaylyn Spa | Meso, Filler, Botox Gia Lai",
